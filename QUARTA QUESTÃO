@@ -17,9 +17,9 @@ Inicio
 
 
 
- escreva ("Quantos kilos de maçã você vai comprar: ")
+ escreva ("Quantos kilos de maÃ§Ã£ vocÃª vai comprar: ")
 leia (qtdmaca)
-escreva ("Quantos kilos de morango você vai comprar: ")
+escreva ("Quantos kilos de morango vocÃª vai comprar: ")
 leia (qtdmorango)
 
 maca2 <- 2.20 * qtdmaca
@@ -32,19 +32,19 @@ limpatela
 
 escreval ("-----------------------------------")
 se (qtdmaca > 5) entao
-escreval("O valor total das maçãs é de: ", maca2)
+escreval("O valor total das maÃ§Ã£s Ã© de: ", maca2)
 senao
-escreval ("O valor total das maçãs é de: ", maca1)
+escreval ("O valor total das maÃ§Ã£s Ã© de: ", maca1)
 fimse
 
 se (qtdmorango > 5) entao
-escreval("O valor total do morango é de: ", morango1)
+escreval("O valor total do morango Ã© de: ", morango1)
 senao
-escreval ("O valor total do morango é de: ", morango2)
+escreval ("O valor total do morango Ã© de: ", morango2)
 fimse
 
 se (qtdmorango > 8) entao
-escreval ("Seu desconto é de: ", morango3)
+escreval ("Seu desconto Ã© de: ", morango3)
 fimse
 
 
